@@ -5,7 +5,6 @@ import 'package:provider/provider.dart';
 import '../../providers/theme_provider.dart';
 import '../../services/storage_service.dart';
 import '../auth/welcome_page.dart';
-import '../orders/order_history_page.dart';
 
 /// Halaman profil pengguna yang menampilkan data akun dan pengaturan aplikasi.
 /// Memungkinkan pengguna melihat dan mengubah profil, mengatur tema, melihat riwayat pesanan, dan logout.
@@ -193,32 +192,6 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
             ),
 
-            const SizedBox(height: 20),
-            
-            SoftCard(
-              child: ListTile(
-                contentPadding: EdgeInsets.zero,
-                leading: const Icon(Icons.receipt_long_outlined),
-
-                title: const Text(
-                  "Riwayat Pesanan",
-                  style: TextStyle(fontWeight: FontWeight.w600),
-                ),
-
-                subtitle: const Text("Lihat semua pesanan"),
-
-                trailing: const Icon(Icons.chevron_right),
-
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => const OrderHistoryPage(),
-                    ),
-                  );
-                },
-              ),
-            ),
             const SizedBox(height: 20),
 
             SizedBox(

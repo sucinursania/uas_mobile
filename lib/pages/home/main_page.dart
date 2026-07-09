@@ -4,6 +4,7 @@ import '../cart/cart_page.dart';
 import '../products/product_page.dart';
 import '../profile/profile_page.dart';
 import '../products/wishlist_page.dart';
+import '../orders/order_history_page.dart';
 import '../../theme/app.dart';
 import 'home_page.dart';
 
@@ -24,7 +25,7 @@ class _MainPageState extends State<MainPage> {
   final List<Widget> pages = [
     const HomeContentPage(),
     const ProductPage(),
-    const CartPage(),
+    const OrderHistoryPage(),
     const WishlistPage(),
     const ProfilePage(),
   ];
@@ -69,7 +70,7 @@ class _MainPageState extends State<MainPage> {
       NavigationDestination(
         icon: Icon(Icons.shopping_bag_outlined),
         selectedIcon: Icon(Icons.shopping_bag),
-        label: "Cart",
+        label: "Riwayat",
       ),
       NavigationDestination(
         icon: Icon(Icons.favorite_border),
