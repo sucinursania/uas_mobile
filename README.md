@@ -1,17 +1,110 @@
-# uas_mobile
+# 🛒 UAS Mobile - Aplikasi E-Commerce
 
-A new Flutter project.
+Aplikasi E-Commerce berbasis Flutter yang dikembangkan sebagai proyek Ujian Akhir Semester (UAS). Aplikasi ini terintegrasi dengan REST API menggunakan Express.js dan Supabase sebagai database.
 
-## Getting Started
+## 📱 Fitur
 
-This project is a starting point for a Flutter application.
+- Login dan Register
+- Menampilkan daftar produk
+- Detail produk
+- Keranjang belanja
+- Checkout pesanan
+- Riwayat pesanan
+- Profil pengguna
+- Edit profil
+- Logout
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Teknologi
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Frontend
+- Flutter
+- Dart
+- Dio
+- Shared Preferences
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Backend
+- Node.js
+- Express.js
+- Supabase
+- JWT Authentication
+
+## 🌐 REST API
+
+Backend menggunakan REST API yang di-deploy menggunakan Railway.
+
+Base URL:
+
+```text
+https://api-tb-production-a116.up.railway.app/api
+```
+
+Dokumentasi API:
+
+```text
+https://api-tb-production-a116.up.railway.app/api-docs
+```
+
+## 📦 APK
+
+File APK dapat diunduh melalui halaman **Releases** pada repository GitHub.
+
+## 🚀 Cara Menjalankan Project
+
+1. Clone repository
+
+```bash
+git clone https://github.com/sucinursania/uas_mobile.git
+```
+
+2. Masuk ke folder project
+
+```bash
+cd uas_mobile
+```
+
+3. Install dependency
+
+```bash
+flutter pub get
+```
+
+4. Jalankan aplikasi
+
+```bash
+flutter run
+```
+
+## 📂 Struktur Folder
+
+```
+lib/
+│── models/
+│── pages/
+│── providers/
+│── services/
+│── theme/
+│── utils/
+│── widgets/
+│── main.dart
+```
+
+## 👩‍💻 Developer
+
+**Suci Nursania**
+
+Teknik Informatika  
+Institut Teknologi Garut
+
+---
+
+**Project UAS Mobile Programming**
+
+
+![Login](screenshoot\login.png)
+![Home](screenshoot\home.png)
+![Produk](screenshoot\produk.png)
+![Riwayat](screenshoot\riwayat.png)
+![Wishlist](screenshoot\wishlist.png)
+![Profile_Light](screenshoot\profile_light.png)
+![Prifile_Dark](screenshoot\profile_dark.png)
+![Dark_Mode](screenshoot\dark_mode.png)
