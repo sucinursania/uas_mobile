@@ -99,12 +99,12 @@ Institut Teknologi Garut
 
 **Project UAS Mobile Programming**
 
+## 📸 Tampilan Aplikasi
 
-![Login](./screenshoot/login.png)
-![Home](./screenshoot/home.png)
-![Produk](./screenshoot/produk.png)
-![Riwayat](./screenshoot/riwayat.png)
-![Wishlist](./screenshoot/wishlist.png)
-![Profile_Light](./screenshoot/profile_light.png)
-![Prifile_Dark](./screenshoot/profile_dark.png)
-![Dark_Mode](./screenshoot/dark_mode.png)
+| Login | Home | Produk | Riwayat |
+|:-----:|:----:|:------:|:-------:|
+| <img src="./screenshoot/login.png" width="180"> | <img src="./screenshoot/home.png" width="180"> | <img src="./screenshoot/produk.png" width="180"> | <img src="./screenshoot/riwayat.png" width="180"> |
+
+| Wishlist | Profile (Light) | Profile (Dark) | Dark Mode |
+|:---------:|:---------------:|:--------------:|:---------:|
+| <img src="./screenshoot/wishlist.png" width="180"> | <img src="./screenshoot/profile_light.png" width="180"> | <img src="./screenshoot/profile_dark.png" width="180"> | <img src="./screenshoot/dark_mode.png" width="180"> |
