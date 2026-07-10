@@ -100,11 +100,11 @@ Institut Teknologi Garut
 **Project UAS Mobile Programming**
 
 
-![Login](screenshoot\login.png)
-![Home](screenshoot\home.png)
-![Produk](screenshoot\produk.png)
-![Riwayat](screenshoot\riwayat.png)
-![Wishlist](screenshoot\wishlist.png)
-![Profile_Light](screenshoot\profile_light.png)
-![Prifile_Dark](screenshoot\profile_dark.png)
-![Dark_Mode](screenshoot\dark_mode.png)
+![Login](./screenshoot/login.png)
+![Home](./screenshoot/home.png)
+![Produk](./screenshoot/produk.png)
+![Riwayat](./screenshoot/riwayat.png)
+![Wishlist](./screenshoot/wishlist.png)
+![Profile_Light](./screenshoot/profile_light.png)
+![Prifile_Dark](./screenshoot/profile_dark.png)
+![Dark_Mode](./screenshoot/dark_mode.png)
